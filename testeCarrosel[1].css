@@ -1,0 +1,66 @@
+#main {	
+	background: #f0f0f0;
+	float:left;
+	border-radius: 	5px;
+	height:320px;border:1px solid red;
+	padding:5px;
+	width:700px;
+}
+#main  img {border: none; } #main  a {color: #fff;}
+
+
+
+
+#main .destaques{
+	float: left;
+	background: #333;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	border:1px solid #ccc;
+	margin:5px;
+	border-radius: 	5px;
+}
+
+#carrosel{
+	float:right;
+	width:220px;
+	height:310px;
+	overflow-y:auto;
+	margin:5px;
+	border:1px solid #CCC;
+	
+
+}
+#main  .conteudoImagem {
+	float: left;
+	width:90px;
+	background: #f0f0f0;
+	padding:5px;
+	border-radius: 	5px;
+	
+	
+}
+
+#main  .conteudoImagem img {
+	padding: 5px; 
+	background: #fff; 
+	float: left;
+	width:70px;
+	
+}
+
+#main  .conteudoImagem ul {margin: 0; padding: 0;list-style: none;}
+
+#main  .conteudoImagem ul li{
+	margin: 0px; padding: 5px;	
+	width: 80px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+}
+
+#main  .conteudoImagem ul li.hover {	background: #ddd; cursor: pointer;}
+
+#main  .conteudoImagem ul li.active {background: #fff;cursor: default;}

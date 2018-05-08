@@ -1,0 +1,55 @@
+#conteudo{
+	background :#fafbff;
+	border:1px solid #CCC;
+}
+#conteudo #cadastrar{
+	width:686px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	border-radius: 	5px;
+}
+
+#conteudo #cadastrar h1{
+	font-family:Arial, Helvetica, sans-serif;	
+	text-align:center;
+	font-size:16px;		
+	color:#8B0000;	
+	padding:  10px 0 0 0;
+	font-weight: bold;
+}
+
+#conteudo #cadastrar p {
+	font-size:12px;
+	text-align:center;
+	padding:5px;
+	color:#8B0000; border:px solid red;
+}
+
+#conteudo #cadastrar .formulario{	
+	padding:5px;
+	margin:5px 0 0 170px;
+	float:left;
+
+}
+
+#conteudo #cadastrar .formulario  form{
+	padding:5px;
+	text-align:left;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;	
+	color:#1C1C1C;font-weight: bold;
+}
+
+#conteudo #cadastrar .formulario  form  input { width:345px; margin:4px 4px 4px 0; font-size:13px; }
+
+#conteudo #cadastrar .formulario  form .btnEnviar{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:10px 0 0 0px;
+	background-color:#8B0000;
+	width:350px;
+	padding:5px;	
+	color:#FFF;
+	font-weight: bold;
+	border-radius:5px;
+}

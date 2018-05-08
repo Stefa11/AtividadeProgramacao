@@ -1,0 +1,167 @@
+#geral #conteudo{
+	border:1px solid #CCC;
+	background :#fafbff;
+	margin:0;
+	padding:0;
+
+}
+#info{
+	border:px solid #CCC;
+	float:left;
+	padding:5px 0 5px 5px;	
+	border-radius:5px;
+	background:#fafbff;
+}
+
+#info .sitio{
+	font-family:Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #CD853F  ;
+	text-align:center;
+	font-size:16px;	
+	display:table-cell;	
+	width:650px;
+	color:#8B0000;
+	float:left;
+	padding:  10px 10px 0 10px;
+	font-weight: bold;
+}
+
+#info .endereco{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:14px;
+	padding:5px;
+	float:left;
+	margin:5px 13px 0 0 ;
+}
+
+.cor{color:#CD853F;font-size:14px; font-weight: bold;}
+ 
+#info .endereco .corPreco{color:#4F4F4F;	font-size:14px;}
+
+.infoAd{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:13px;
+	padding:5px;	
+	background:#fafbff;
+}
+
+#info .infoAd p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#4F4F4F;
+}
+
+#info .infoAd a{text-decoration:none;}
+
+#info .infoAd .corPreco{color:#CD853F;font-size:12px;font-weight: bold;}
+#info .infoAd  a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align:left;
+	color:#696969;
+	text-decoration:none;
+}
+#info .infoAd a:hover{
+	-moz-box-shadow:0px 3px 10px 0px #ccc;
+	-webkit-box-shadow:0px 3px 10px 0px #ccc;	
+	text-decoration:underline;
+	font-size:100%;
+	padding-left:5px;	 
+}
+
+.maisInfo{
+
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;		
+	text-align:left;
+	margin:5px ;
+	padding:  10px 25px 10px 0;
+	font-weight: bold;	
+	border:1px solid #CCC;
+	border-radius:5px;
+	background:#006400;
+}
+
+.maisInfo a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:12px;	
+	padding:5px;
+	
+}
+.maisInfo a:hover{
+	-moz-box-shadow:0px 3px 10px 0px #ccc;
+	-webkit-box-shadow:0px 3px 10px 0px #ccc;	
+	text-decoration:underline;
+}
+
+/*
+*CSS da animação das fotos
+*/
+
+#main {	
+	background: #f0f0f0;
+	float:left;
+	border-radius: 	5px;
+	height:380px;
+	margin:5px 0 0 0;
+}
+
+#main  img {border: none; } #main  a {color: #fff;}
+
+#main  .imagemPrincipal {
+	
+	float: left;
+	background: #333;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	border:1px solid #ccc;
+	margin:5px;
+	border-radius: 	5px;
+	
+}
+#main .overflow{
+	float:right;
+	width:220px;
+	height:370px;
+	overflow-y:auto;
+	margin:5px;
+	border:1px solid #CCC;
+}
+
+#main  .conteudoImagem {
+	float: left;
+	width:90px;
+	background: #f0f0f0;
+	padding:5px;
+	border-radius: 	5px;
+	
+	
+}
+
+#main  .conteudoImagem img {
+	padding: 5px; 
+	background: #fff; 
+	float: left;
+	width:70px;
+	
+}
+
+#main  .conteudoImagem ul {margin: 0; padding: 0;list-style: none;}
+
+#main  .conteudoImagem ul li{
+	margin: 0px; padding: 5px;	
+	width: 80px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+}
+
+#main  .conteudoImagem ul li.hover {	background: #ddd; cursor: pointer;}
+
+#main  .conteudoImagem ul li.active {background: #fff;cursor: default;}
